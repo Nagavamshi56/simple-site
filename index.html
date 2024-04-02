@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qscript Coffee Shop</title>
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Style CSS -->
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Font Awesome CDN -->
+
+    <!-- Bootstrap Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap Links -->
+
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!-- Google Font -->
+
+
+    <!-- Aos Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Aos Animation -->
+
+</head>
+<body>
+    
+
+
+    <!-- Navbar Start -->
+    <div class="navbar">
+        <nav>
+            <input type="checkbox" id="show-search">
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fa fa-bars"></i></label>
+
+            <div class="content">
+                <div class="logo"><img src="logo.png" alt=""></div>
+                    
+                <ul class="links">
+
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#order">Contact</a></li>
+                </ul>
+                
+            </div>
+
+            <!-- <label for="show-search" class="search-icon"><i class="fa fa-search"></i></label> -->
+
+            <form action="#" class="search-box">
+                <input type="text" placeholder="Search" required>
+                <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+            </form>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Home Section Start -->
+    <section class="home">
+
+        <div class="home-content"  data-aos="zoom-in-down">
+            <h3>QScript <span>Coffee Shop</span></h3>
+            <h3>Enjoy Your Coffee Before Your Activity..!</h3>
+            <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem earum, quae optio voluptate quam excepturi sapiente facilis? Corporis, facilis obcaecati!</p>
+            
+            <button id="btn"><a href="#order">ORDER NOW</a><i class="fa-solid fa-arrow-right"></i></button> -->
+
+        </div>
+
+        <div class="img" data-aos="zoom-in-left"> 
+            <img src="bg.png" alt="">
+        </div>
+
+    </section>
+    <!-- Home Section End -->
+
+
+
+    <!-- Top Card Start -->
+    <section class="top-card" id="tp-card" data-aos="fade-up"
+    data-aos-duration="1500">
+
+
+        <h3>Why We Are Different?</h3>
+        <p>We don't just make your coffee, we make your day!</p>
+
+        <div class="row">
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="coffee-beans 1.png" alt="">
+                    <h2>Supreme Coffee</h2>
+                    <!-- <p>We take advantage of the free delivery of these drives and provide them with a great deal of wisdom.</p> -->
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="badge 1.png" alt="">
+                    <h2>High Quality</h2>
+                    <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi ducimus libero harum repellat provident sapiente amet consectetur aperiam eos magnam.</p> -->
+
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="coffee-cup 1.png" alt="">
+                    <h2>Extraordinary</h2>
+                    <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi ducimus libero harum repellat provident sapiente amet consectetur aperiam eos magnam.</p> -->
+
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="best-price 1.png" alt="">
+                    <h2>Affordable Prices</h2>
+                    <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi ducimus libero harum repellat provident sapiente amet consectetur aperiam eos magnam.</p> -->
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Top Card End -->
+
+
+
+    <!-- Menu Section Start -->
+    <section class="menu" id="menu">
+
+        <h3>Our Menu</h3>
+        <div class="row"  data-aos="fade-up"
+        data-aos-duration="1500">
+
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="m1.png" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Cappuccino</h3>
+                    <p>Espresso, steamed milk and milk foam equally split into thirds</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+            <!-- <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="m2.png" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Coffee <span>$20.5</span></h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, odit.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div> -->
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="m3.png" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Latte</h3>
+                    <p>A latte is one of the most popular coffee drinks thanks to its mild, sweet flavor.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="m4.png" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Macchiato</h3>
+                    <p>A macchiato is a shot of espresso with just a touch of steamed milk or foam.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row" style="margin-top: 30px;"  data-aos="fade-up"
+        data-aos-duration="1500">
+
+            <!-- <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="m5.png" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Coffee <span>$20.5</span></h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, odit.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div> -->
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="m6.png" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Black Filtered Coffee</h3>
+                    <p>Black coffee is the simplest form of ground coffee beans that are steeped in hot water.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="m7.png" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Flat White</h3>
+                    <p>Originating in Australia, the flat white was created out of interest for a cappuccino with much less of a milk foam finish.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="m8.png" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Long Black</h3>
+                    <p>A long black is a style of coffee commonly found in Australia and New Zealand, made by pouring a single shot of espresso into hot water</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Menu Section End -->
+
+
+    <!-- Banner Start -->
+    <!-- <div class="banner"  data-aos="fade-up"
+    data-aos-duration="1500"> 
+        <div class="banner-content">
+            <h3>Check out our <br>Best Coffee Products</h3>
+            <button id="banner-btn">Explore Products</button>
+        </div>
+    </div> -->
+    <!-- Banner End -->
+
+
+    <!-- Products Section Start -->
+    <!-- <section class="menu" id="products">
+
+        <h3>Our Products</h3>
+        <div class="row"  data-aos="fade-up"
+        data-aos-duration="1500">
+
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="p1 (1).png" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Coffee <span>$20.5</span></h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, odit.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="p1 (2).png" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Coffee <span>$20.5</span></h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, odit.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="p1 (3).png" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Coffee <span>$20.5</span></h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, odit.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="p1 (4).png" alt="">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Coffee <span>$20.5</span></h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, odit.</p>
+                    <h6><button id="btn1">Shop Now</button> <button id="btn2">Add Cart</button></h6>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section> -->
+    <!-- Products Section End -->
+
+
+    <!-- About Section Start -->
+    <section class="about" id="about"  data-aos="fade-up"
+    data-aos-duration="1500">
+
+        <div class="row">
+            <div class="col-md-5 py-3 py-md-0">
+                <div class="card">
+                    <img src="about-img.png" alt="">
+                </div>
+            </div>
+
+            <div class="col-md-7 py-3 py-md-0">
+
+                <h5>About us</h5>
+                <h3>QScript Coffee Shop</h3>
+                <p>Welcome to Qscript, where every brew tells a story. We blend passion and flavor to craft an experience unlike any other.</p>
+                <p>From our carefully sourced beans to our welcoming ambiance, we invite you to join our community of coffee lovers. Come, savour the moment with us at QScript</p>
+                <!-- <button id="about-btn">Read More...</button> -->
+
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- About Section End -->
+
+
+    <!-- Order Section Start -->
+    <section class="order" id="order"  data-aos="fade-up"
+    data-aos-duration="1500">
+
+        <div class="row">
+            <div class="col-md-6">
+
+                <input type="text" class="form-control" placeholder="Name" required>
+                <input type="number" class="form-control" placeholder="Phone Number" required>
+                <input type="text" class="form-control" placeholder="What You Want" required>
+                <input type="number" class="form-control" placeholder="Quantity" required>
+                <textarea name="" id="" cols="30" rows="5" class="form-control"></textarea>
+
+                <button>
+                    <span>Order Now</span>
+                </button>
+
+            </div>
+
+            <div class="col-md-6 py-3 py-md-0">
+                <div class="order-info">
+                    <h3>Order Now</h3>
+                    <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam in minima, explicabo cumque quisquam porro ea quidem quae corporis? Dolores?</p> -->
+
+                    <div class="list">
+                        <li><a href="#">+91 9876543210</a></li>
+                        <li><a href="#">qscriptcoffeeshop@gmail.com</a></li>
+                        <li><a href="#">India</a></li>
+                    </div>
+                    <div class="social">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Order Section End -->
+
+
+
+    <!-- <section class="reviews"  data-aos="fade-up"
+    data-aos-duration="1500">
+        <h3>What's Our Customars Say</h3>
+        <div class="row">
+            <div class="col-md-4 py-3 py-md-0">
+
+                <div class="card">
+                    <p><img src="./images/Avatar Image.png" alt="">
+                    
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                    <hr>
+                    <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil dolorum iste cupiditate illo eveniet. Ex porro sint minus quae molestias beatae, eaque amet quibusdam architecto animi sit quia ad tenetur.</h6>
+
+                </div>
+
+
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+
+                <div class="card">
+                    <p><img src="./images/Avatar Image (1).png" alt="">
+                    
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                    <hr>
+                    <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam officiis impedit tempore doloribus magni quia, tempora quam aut inventore cum nihil maiores obcaecati fugiat doloremque laudantium, molestias labore quae illum!</h6>
+                </div>
+
+
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+
+                <div class="card">
+                    <p><img src="./images/Avatar Image (2).png" alt="">
+                    
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                    <hr>
+                    <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptates fugit ea animi quod et itaque vel doloribus perferendis molestiae officiis cumque praesentium, ex iusto dolore eum laborum necessitatibus suscipit.</h6>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section> -->
+
+
+    <!-- Footer Start -->
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="logo"><img src="logo.png" alt=""></div>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, reiciendis vitae est quibusdam voluptatem veritatis eaque quo pariatur libero. Cum.
+                <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, exercitationem!
+            </p> -->
+            <div class="social-links">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-pinterest"></i>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+    <!-- Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <!-- Animation -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
